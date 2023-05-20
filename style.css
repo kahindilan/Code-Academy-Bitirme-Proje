@@ -1,0 +1,175 @@
+h1 { text-align: center; color: darkgreen ;}
+ul { color: black;   }
+
+.duz-cerceve{
+	border:3px solid rgb(138, 138, 228);
+	width:500px;
+	height:70px;
+    background-color: wheat;
+   align-items: baseline;
+   
+}
+
+
+
+img{
+    width: 270px;
+    border: 3px solid purple;
+    float: right;
+}
+
+.metin-cerceve1{
+   
+	border:3px solid rgb(138, 138, 228);
+	width: 990px;
+	height:90px;
+    background-color: wheat;
+}
+   
+
+    .metin-cerceve2{
+   
+        border:3px solid rgb(138, 138, 228);
+        width: 990px;
+        height:90px;
+        background-color: wheat;
+   
+    }
+
+.metin-cerceve3{
+   
+	border:3px solid rgb(138, 138, 228);
+	width: 990px;
+	height:60px;
+    background-color:wheat;
+    
+   
+}
+
+.yorum-cerceve{
+   
+	border:3px solid rgb(138, 138, 228);
+	width: 990px;
+	height:240px;
+    background-color: wheat;
+    
+   
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 1em;
+    font-size: 6vw;
+    color: #FFD600;
+    cursor: pointer
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+
+@media only screen and (max-width: 100px) {
+    h1 {
+        font-size: 14px
+    }
+
+    p {
+        font-size: 12px
+    }
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/id/929023224/vector/seamless-background-with-books.jpg?s=612x612&w=0&k=20&c=suJcI7JPdWMAB32Dlr3V1CPs3FCfgFkhSSuFuQN8bzw=);
+
+}
+
+
+.vertical-menu {
+    width: 200px; 
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; 
+  }
+  
+  .vertical-menu a.active {
+    background-color:rgb(138, 138, 228); 
+    color: white;
+  }
+
+  .giris-menu {
+float: right;
+border:3px solid rgb(138, 138, 228);
+        width: 130px;
+        height:40px;
+        background-color: wheat;
+        text-align: center;
+   
+  } 
+
+  
+  #comment-box, #post {
+    border: none;
+    border-radius: 5px;
+    
+}
+#post{
+    background-color: rgb(255, 255, 255);
+}
+
+#post:hover{
+    background-color: rgb(138, 138, 228);
+}
+
+#comment-box{
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(212, 212, 252);
+}
+
+#post{
+    width: 300px;
+}
+
+#unordered{
+   font-size: large;
+}

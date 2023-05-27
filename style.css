@@ -1,11 +1,14 @@
-h1 { text-align: center; color: darkgreen ;}
-ul { color: black;   }
+h1 { text-align: center; color: darkgreen; font-size: 50px ;}
+ul {
+     color: black;  
+     }
 
 .duz-cerceve{
 	border:3px solid rgb(138, 138, 228);
 	width:500px;
 	height:70px;
     background-color: wheat;
+    margin-left: 0px;
    align-items: baseline;
    
 }
@@ -136,16 +139,11 @@ body {
     color: white;
   }
 
-  .giris-menu {
-float: right;
-border:3px solid rgb(138, 138, 228);
-        width: 130px;
-        height:40px;
-        background-color: wheat;
-        text-align: center;
-   
-  } 
-
+.kapsayici{
+    width: 90%;
+    height: 1000px;
+    margin-left: 5%;
+}
   
   #comment-box, #post {
     border: none;

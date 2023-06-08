@@ -13,17 +13,88 @@ h2 { color: darkblue;}
    align-items: baseline;  
 }
 
+.yazar{
+    border:3px solid rgb(138, 138, 228);
+        width: 990px;
+        height:90px;
+        background-color: wheat;
+ }
+ 
+ .yazar1{
+    border:3px solid rgb(138, 138, 228);
+        width: 990px;
+        height:165px;
+        background-color: wheat;
+ }
+ 
+ .yazar2{
+    border:3px solid rgb(138, 138, 228);
+        width: 990px;
+        height:180px;
+        background-color: wheat;
+ }
 
+ 
+ .yazar3{
+    border:3px solid rgb(138, 138, 228);
+        width: 990px;
+        height:70px;
+        background-color: wheat;
+ }
 
 img{
     width: 270px;
     border: 3px solid purple;
     margin-right: 0%;
     float: right;
-    
+   position: relative;
+   top: -200px;  
 }
 
+.resim{
+   
+    position: relative;
+    top:-110px;
 
+}
+.resim2{
+    position: relative;
+    top: 25px;
+   right: -270px;
+}
+
+.resim3{
+    position: relative;
+    top:15px ;
+}
+
+.resim4{
+    position: relative;
+    top:-7px ;
+}
+
+.resim5{
+    position: relative;
+    top: 35px;
+}
+
+.resim6{
+    position: relative;
+    top: -30px;
+}
+
+.resim7{
+ position: relative;
+ right: -270px;
+ bottom: -50px;
+
+}
+
+.resim8{
+    position: relative;
+    left: -10px;
+    bottom: -70px;
+}
 
  .metin-cerceve1 {
     border:3px solid rgb(138, 138, 228);
@@ -147,4 +218,3 @@ body {
 #unordered{
    font-size: large;
 }
-

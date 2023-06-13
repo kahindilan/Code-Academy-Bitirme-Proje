@@ -1,252 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yazarlar</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
 </head>
 <body>
-<h1>Yazarlar Hakkında Bilgi</h1>
-<br>
-<h2>Ahmet Ümit</h2>
-<!--Yazarların Biyografisi Başlar-->
-    <p>
+  <style>
+    body{
+      background: #bdc3c7;
+    }
+    *{
+      overflow-x: hidden;
+    }
+    .yazarlar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .yazar {
+
+      border: 1px solid #ccc;
+      padding: 30px;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+    .yazar img {
+     margin: auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .yazar h2 {
+      margin: 0;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .yazar p {
+      margin: 0;
+      color: #666;
+      font-size: 16px;
+    }
+    header {
+
+padding: 10px;
+}
+
+header .login {
+float: right;
+margin-right: 3.5rem;
+}
+
+header .login a {
+color: black;
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+nav ul {
+
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+
+margin-right: 10px;
+}
+
+nav a {
+text-decoration: none;
+color: #333;
+
+}
+
+nav a:hover {
+color: #555;
+}
+
+main {
+margin: 20px;
+}
+.book {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.book img {
+    height: 300px;
+    width: auto;
+}
+
+.book h3 {
+    margin: 10px 0;
+}
+
+.book p {
+    color: #777;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+  header nav li .buu{
+ font-size: 1.5rem;
+  }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kitap Sitesi</h1>
+    <nav>
+      <ul>
+        <li><a href="/1.html">Ana Sayfa</a></li>
+     
+        <li><a class="buu" href="/Yazarlar.html">Yazarlar</a></li>
+        <li><a href="/İletişim.html">İletişim</a></li>
+        <li><a href="/Kitaplar.html">Kitaplar</a></li>
+      </ul>
+      <div class="login">
+        <a href="/login.html">Giriş Yap / Üye Ol</a>
+      </div>
+    </nav>
+    
+    
+    
+  </header>
+  <div class="yazarlar">
     <div class="yazar">
-        Ahmet Ümit, 1960’ta Gaziantep’te doğdu. 
-        1983’te Marmara Üniversitesi Kamu Yönetimi Bölümü’nü bitirdi. 
-        1985-1986 yıllarında, Moskova’da, Sosyal Bilimler Akademisi’nde siyaset eğitimi gördü. 
-        Şiirleri, 1989 yılında Sokağın Zulası adıyla yayımlandı. 
-        1992’de ilk öykü kitabı Çıplak Ayaklıydı Gece yayımlandı.
-        Bunu Bir Ses Böler Geceyi, Agatha’nın Anahtarı, Şeytan Ayrıntıda Gizlidir adlı polisiye öykü kitapları izledi. 
-        Hem çocuklara hem büyüklere yönelik Masal Masal İçinde
-        ve Olmayan Ülke kitapları ile farklı bir tarz denedi. 
-        1996’da yazdığı ilk romanı Sis ve Gece, polisiye edebiyatta bir başyapıt olarak değerlendirildi. 
-        Yazarın tüm yapıtları Türkiye İş Bankası Yayınları tarafından yayımlanmaktadır.
+      <img src="/ATATÜRK.jpg" alt="Yazar 1">
+      <h2>Yazar 1</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur dignissimos eos unde optio nostrum corrupti culpa eaque expedita? Aspernatur inventore, quaerat quas et eum, tempora quidem dolorem consequuntur saepe assumenda voluptates voluptatum in eos vero ullam tempore vel voluptatem! Quia quam numquam sit reprehenderit illum commodi quidem quis architecto.</p>
     </div>
-    </p>
-    <br>
-    <div class="resim">
-        <img src="https://blog-turkey.storytel.com/wp-content/uploads/2021/01/AU_1_3-1.jpg" alt="Ahmet Ümit Resmi"> 
-</div>
-        <hr>
+    <div class="yazar">
+      <img src="/ATATÜRK.jpg" alt="Yazar 2">
+      <h2>Yazar 2</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur dignissimos eos unde optio nostrum corrupti culpa eaque expedita? Aspernatur inventore, quaerat quas et eum, tempora quidem dolorem consequuntur saepe assumenda voluptates voluptatum in eos vero ullam tempore vel voluptatem! Quia quam numquam sit reprehenderit illum commodi quidem quis architecto.</p>
+    </div>
+    <div class="yazar">
+      <img src="/ATATÜRK.jpg" alt="Yazar 3">
+      <h2>Yazar 3</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur dignissimos eos unde optio nostrum corrupti culpa eaque expedita? Aspernatur inventore, quaerat quas et eum, tempora quidem dolorem consequuntur saepe assumenda voluptates voluptatum in eos vero ullam tempore vel voluptatem! Quia quam numquam sit reprehenderit illum commodi quidem quis architecto.</p>
+    </div>
+    <div class="yazar">
+      <img src="/ATATÜRK.jpg" alt="Yazar 3">
+      <h2>Yazar 3</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur dignissimos eos unde optio nostrum corrupti culpa eaque expedita? Aspernatur inventore, quaerat quas et eum, tempora quidem dolorem consequuntur saepe assumenda voluptates voluptatum in eos vero ullam tempore vel voluptatem! Quia quam numquam sit reprehenderit illum commodi quidem quis architecto.</p>
+    </div>
+    <div class="yazar">
+      <img src="/ATATÜRK.jpg" alt="Yazar 3">
+      <h2>Yazar 3</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur dignissimos eos unde optio nostrum corrupti culpa eaque expedita? Aspernatur inventore, quaerat quas et eum, tempora quidem dolorem consequuntur saepe assumenda voluptates voluptatum in eos vero ullam tempore vel voluptatem! Quia quam numquam sit reprehenderit illum commodi quidem quis architecto.</p>
+    </div>
+    <div class="yazar">
+      <img src="/ATATÜRK.jpg" alt="Yazar 3">
+      <h2>Yazar 3</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur dignissimos eos unde optio nostrum corrupti culpa eaque expedita? Aspernatur inventore, quaerat quas et eum, tempora quidem dolorem consequuntur saepe assumenda voluptates voluptatum in eos vero ullam tempore vel voluptatem! Quia quam numquam sit reprehenderit illum commodi quidem quis architecto.</p>
+    </div>
+    <div class="yazar">
+      <img src="/ATATÜRK.jpg" alt="Yazar 3">
+      <h2>Yazar 3</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur dignissimos eos unde optio nostrum corrupti culpa eaque expedita? Aspernatur inventore, quaerat quas et eum, tempora quidem dolorem consequuntur saepe assumenda voluptates voluptatum in eos vero ullam tempore vel voluptatem! Quia quam numquam sit reprehenderit illum commodi quidem quis architecto.</p>
+    </div>
+    <div class="yazar">
+      <img src="/ATATÜRK.jpg" alt="Yazar 3">
+      <h2>Yazar 3</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur dignissimos eos unde optio nostrum corrupti culpa eaque expedita? Aspernatur inventore, quaerat quas et eum, tempora quidem dolorem consequuntur saepe assumenda voluptates voluptatum in eos vero ullam tempore vel voluptatem! Quia quam numquam sit reprehenderit illum commodi quidem quis architecto.</p>
+    </div>
+    <div class="yazar">
+      <img src="/ATATÜRK.jpg" alt="Yazar 3">
+      <h2>Yazar 3</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur dignissimos eos unde optio nostrum corrupti culpa eaque expedita? Aspernatur inventore, quaerat quas et eum, tempora quidem dolorem consequuntur saepe assumenda voluptates voluptatum in eos vero ullam tempore vel voluptatem! Quia quam numquam sit reprehenderit illum commodi quidem quis architecto.</p>
+    </div>
+    
+    <!-- Diğer yazarlar buraya eklenebilir -->
+  </div>
 
-        <h2>Jack London</h2>
-        <p>
-        <div class="yazar">
-        John Griffith London, Amerikalı gazeteci ve roman yazarıdır.
-        Vahşetin Çağrısı, Martin Eden, Demir Ökçe, Beyaz Diş ve Deniz Kurdu 
-        başta olmak üzere elliden fazla kitabın yazarı olan Jack London, 
-        Dünya ticari dergi romanının öncüsü ve yazarlıktan yüksek gelir 
-        elde edebilen Amerikalıların ilklerindendir. Yazarın çocukluğu yoksulluk içinde geçmiştir.
-        14 yaşında okulu bırakmış ve hayata atılmıştır. 
-        Çeşitli işlerde çalışmıştır. Amerika’da ve farklı ülkelerde maceralı yolculuklar yaptı.
-        Bir dönem cezaevinde yattı.
-        Kitaplarında yaşam kavgasını duygusal bir bakış ile anlatmıştır. 
-        Bazı eserlerinde ise sert bir kapitalizm eleştirisi vardır. 
-        Jack London 22 Kasım 1916 yılında böbrek yetmezliğinden ölmüştür.
-        </div>
-        <br>
-    <div class="resim2">
-    <img src="https://img1-kidega.mncdn.com/UPLOAD/yazarlar/jack-london-profil-ki.jpg" alt="Jack London Resmi">
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+  
+  <script>
+    $('.yazarlar').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+  </script>
 
-<h2>Tolga Gümüşay</h2>
-<p>
-<div class="yazar1">
-    1972’de Edirne’de doğdu. 
-    Çocukluğu babasının mesleği nedeniyle Türkiye’nin çeşitli bölgelerinde geçti. 
-    Yatılı okuduğu Kadıköy Anadolu Lisesi’nden 1990’da mezun oldu. 
-    Gümüşay adını ilk kez, gençlik romanı 6 Yıl Tam Pansiyon İle (2001) duyurdu. 
-    Daha sonra, çocuklar için Geleceği Görme Ortaklığı (2005), 
-    gençler için Keskin Naneli Öyküler (2006) adlı öykü kitaplarını, 
-    Hazırlıksız (2011) adlı romanı yazdı. 2010 yılında okurla buluşan romanı Hiç Kimsenin Kenti,
-    İZ TV tarafından belgesele konu edildi. Daha sonra, kendi çektiği fotoğraflara öyküler 
-    Gümüşay, bunları Kareli Öyküler (2017), Genç Kareli Öyküler (2018)
-    ve İstanbul Kareli Öyküler (2018) adıyla kitaplaştırdı. 
-    Pembe Tuvalet (2004), Anormal (2008), İstanbul Maviyken (2020) ve Veli 
-    (2022) adlı kitapların ardından, Günışığı Kitaplığı’nın Köprü Kitaplar koleksiyonu
-     için otobiyografik öykülerini, Ceplerine Çiçek Dolduran Çocuk (2023) adı altında topladı. 
-    Gerçekçi öyküleriyle öne çıkan Gümüşay, 
-    eşi ve oğluyla birlikte İstanbul’da yaşıyor.
-</div>
-<br>
-<div class="resim3">
-<img src="https://gunisigikitapligi.com/wp-content/uploads/2021/06/tolga-gumusay-yazar-sayfasi-foto.jpg" alt="Tolga Gümüşay Resmi">
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
 
-<h2>Jules Verne</h2>
-<p>
-<div class="yazar2">
-    Jules Gabriel Verne 1828 yılında Fransa’nın Nantes kasabasında doğmuştur.
-    Ailesinin çiftliğinde çocukluğunu geçirmiştir. 
-    Çocukluk yıllarından itibaren oldukça geniş bir hayal gücüne sahip olan Jules Verne
-    kardeşi ile birlikte macera oyunları oynarlardı. Yazdığı bilim kurgu kitapların
-    bu maceraları görmek mümkündür.
-    9 yaşında kardeşi ile birlikte okula yazıldı ve yazmaya olan ilgisi yaşlarında başlamış oldu.
-    Lise bittikten sonra çalışmak için Paris’e gitti. 
-    Aile mesleği olan avukatlık için eğitim almaya başladı 
-    fakat okuldaki eğitiminden ziyade yazı yazmaya adadı kendini. 
-    1948 yılında Paris’te yayınlanan bir dergide Dünyanın Merkezine Seyahat isimli hikayesini
-    parça parça yayınlamaya başladı.
-    Jules Verne dünya edebiyatında büyük bir dönüm noktası oluşturmuştur.
-    Bilim kurgunun edebiyata girmesini sağlamıştır. 
-    En popüler eserleri olan Seksen Günde Devr-i Alem,
-    Denizler Altında 20.000 Fersah ve Aya Yolculuk gibi dünya çapında popüler kitapları yazmıştır.
-    Bu dönemde Viktor Hugo, Alexandre Dumas gibi isimlerle tanıştı ve edebiyat hakkında tavsiyeler aldı.
-    Daha sonra Jules Verne’yi üne kavuşturacak olan Dünyanın Merkezine Yolculuk,
-     Aya Yolculuk, Denizler Altında Yirmi Bin Fersah ve Seksen Günde Devri basıldı
-    Kitaplarındaki maceraları daha iyi yaşatabilmek adına küçük bir tekne ile Avrupa’da gezmeye başladı.
-    Diyabet (şeker) hastası olan Jules Verne 1905 yılında hayatını kaybetti.
-</div>
-<br>
-<div class="resim4">
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/77/F%C3%A9lix_Nadar_1820-1910_portraits_Jules_Verne.jpg" alt="Jules Verne Resmi">
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
-
-<h2>Michael Ende</h2>
-<p>
-<div class="yazar">
-    Michael Ende, 1929 yılında Almanya’da dünyaya geldi.
-    II. Dünya Savaşı’ndan sonra bir drama okuluna katıldı,
-    aktörlük yaptı, skeçler ve kısa oyunlar yazdı, tiyatro yönetmenliği ve film eleştirmenliği yaptı.
-    Çocuk ve gençlik kitaplarının yanı sıra yetişkin kitapları, tiyatro eserleri
-    ve şiir kitapları yazan Ende’nin ilk büyük başarısı, çocuklar için yazdığı 
-    Cim Düğme ve Lokomotifçi Lukas’tır. 1973 yılında yazdığı Momo’ysa büyük ses getirdi. 
-    1979 tarihli fantastik romanı Bitmeyecek Öykü’yle de dünya üzerindeki milyonlarca insanı büyüledi.
-    Kırktan fazla dile çevrilen Ende’nin eserleri uluslararası alanda pek çok prestijli ödüle layık görülmüştür.
-    1995 yılında Michael Ende hayatını kaybetmiştir.
-</div>
-<br>
-<div class="resim5">
-<img src="https://1k-cdn.com/resimler/yazarlar/1985_Michael_Ende327.jpg" alt="Michael Ende Resmi">
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
-<h2>Michelle Magorian</h2>
-<p>
-<div class="yazar1">
-    Michelle Magorian , Hampshire , Portsmouth'da doğmuştur ve Ermeni kökenlidir.
-    Bir çocuk olarak Portsmouth'daki King Theatre'da olabildiğince çok zaman geçirdi
-    ve tutkusu bir oyuncu olmaktı. Rose Bruford Konuşma ve Drama Koleji'nde üç yıl çalıştıktan sonra ,
-    iki yılını Paris'te Marcel Marceau'nun L'école Internationale de Mime'de geçirdi .
-    Oradan profesyonel bir oyunculuk kariyerine başladı ve birkaç yıl boyunca İskoçya’dan Devon’a , 
-    ardından da İngiltere’ye turlar düzenledi.Tüm bu zaman boyunca gizlice hikayeler yazıyordu. 
-    Yirmili yaşların ortasında çocuk kitaplarıyla ilgilenmeye başladı ve bir tane yazmaya karar verdi 
-    ve “İyi Geceler Bay Tom” u yazdı  .Kitabın fikri, 
-    Joseph ve Amazing Technicolor Dreamcoat'ın bir şarkısındaki renklerdi. 
-    Hikayeye dair bazı detaylar, annesinin II . Dünya Savaşı'nda bir hemşire olarak zamanının 
-    hikayelerinden geldi . Bunu tamamlamak için dört buçuk yıl gerekti çünkü tiyatroda da çalışıyordu. 
-    Kitap, Kestrel Books tarafından yayınlandı. ve hızla uluslararası bir başarıya dönüştü. 
-    Guardian Çocuk Roman Ödülü'nü aldı. Kitap, ITV tarafından aynı isme sahip bir film olarak uyarlandı 
-    ve 1998'de yayınlandı; ayrıca bir müzikal olarak uyarlandı. 2007 yılında Portsmouth Üniversitesi'nden fahri doktora aldı .
-</div>
-<br>
-<div class="resim6">
-<img src="https://www.unitedagents.co.uk/sites/default/files/thumbnails/image/michelle-magorian.jpg" alt="Michelle Magorian Resmi">
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
-
-<h2>Paola Verdetti</h2>
-<p>
-<div class="yazar3">
-   
-Paola Peretti, İtalya’nın Verona kentinde yaşıyor.
-Edebiyat ve Felsefe eğitimi gören Paola, 2011 yılında yayıncılık,
-gazetecilik ve yaratıcı yazarlık üzerine çalıştı.
-On beş yıl önce, gözlerinde görme kaybına sebep olan sonra da tamamen körlükle sonuçlanan,
-Stargardt genetik hastalığı olduğunu öğrendi.
-Şu sıralar mülteci çocuklara İtalyanca öğretiyor. 
-20'den fazla dile çevrilen Kiraz Ağacı ve Aramızdaki Mesafe Peretti’nin ilk romanı.
-</div>
-<br>
-<div class="resim7">
-<img src="https://www.gallimard-jeunesse.fr/assets/media/cache/portrait_medium/gallimard_img/picture/96148.jpg" alt="Paola Verdetti Resmi">
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
-<h2>John David Anderson</h2>
-<p>
-<div class="yazar">
-    John David Anderson; ABD, Indianapolis’te doğdu ve büyüdü.
-    Indianapolis Üniversitesi’nde İngiliz Edebiyatı eğitimi aldı
-    ve aynı alanda Illinois Üniversitesi’nde yüksek lisans yaptı.
-    2007’den beri çocuklar için yazıyor. İlk dönem fantastik eserlerinin ardından yazdığı
-    ilk gerçekçi romanı Üç Çocuk, Bir Öğretmen ve Unutulmaz Bir Gün ile 2016 yılında
-    çok sayıda ödüle layık görüldü ve büyük bir hayran kitlesine ulaştı. Tam bir çikolata tutkunu.
-    Eşi, ikiz kızları ve kedisiyle Indianapolis’te yaşamını sürdürüyor. 
-
-</div>
-<br>
-<div class="resim8">
-<img src="https://www.tudem.com/images/yazarlar/john_david_anderson_d8218.jpg" alt="John David Anderson Resmi">
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
 
 </body>
 </html>
+
